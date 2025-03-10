@@ -1,33 +1,56 @@
-HELP.md
+# Compiled class files
 target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+bin/
+out/
 
-### VS Code ###
+# Logs and temporary files
+*.log
+*.tmp
+hs_err_pid*
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# VS Code files
 .vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Maven dependencies
+.mvn/
+!**/src/main/**/mvnw
+!**/src/main/**/mvnw.cmd
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.*.backup
+
+dependency-reduced-pom.xml
+release.properties
+
+# Gradle dependencies
+.gradle/
+
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+
+# Spring Boot specific files
+*.jar
+*.war
+*.ear
+
+# Environment variables and secrets
+.env
+application.properties
+application.yml
+application-*.properties
+application-*.yml
